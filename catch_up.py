@@ -37,3 +37,11 @@ while game:
         x1 -= 5
     if keys_preeset[K_Right] and x1 > 0:
         x1 -= 5
+    if keys_preeset[K_w] and x1 > 0:
+        x1 -= 5
+    if keys_preeset[K_s] and x1 > 0:
+        x1 -= 5
+    if keys_preeset[K_a] and x1 > 0:
+        x1 -= 5
+    if keys_preeset[K_d] and x1 > 0:
+        x1 -= 5
