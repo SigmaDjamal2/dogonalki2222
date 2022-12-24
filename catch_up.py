@@ -45,3 +45,10 @@ while game:
         x1 -= 5
     if keys_preeset[K_d] and x1 > 0:
         x1 -= 5
+    for event in event.get():
+        if event.type == QUIT:
+            game = False
+
+
+    display.update()
+    clock.tick(60)      
